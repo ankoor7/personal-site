@@ -2,7 +2,10 @@
   "extends": "./node_modules/gts/tsconfig-google.json",
   "include": [
     "src/**/*.ts",
-    "test/**/*.ts"
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
   ],
   "compilerOptions": {
     "rootDir": ".",
